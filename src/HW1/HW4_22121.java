@@ -1,3 +1,5 @@
+package HW1;
+
 //HW4_안호성
 public class HW4_22121 {
     public static void main(String[] args) {
