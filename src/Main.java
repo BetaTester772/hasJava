@@ -1,6 +1,11 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-//        int x = 10 + 0.3;
-//        System.out.print(x);
+        System.out.println();
+        System.out.printf("");
+        System.out.println("Main.main");
+        System.out.println("args = " + Arrays.toString(args));
+        System.out.println("true = " + true);
     }
 }
