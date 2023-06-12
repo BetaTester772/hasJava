@@ -15,7 +15,7 @@ public class HW4_22121 {
 
             if (checkNum(num, x)) {
                 System.out.println("맞았습니다.");
-                return;
+                break;
             }
 
             System.out.println("틀렸습니다.");
