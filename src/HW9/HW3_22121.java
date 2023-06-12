@@ -19,10 +19,9 @@ public class HW3_22121 {
     }
 
     public static void printTimes(int n) {
-        int num;
+        int num = n;
 
         if (n <= 9) num = 9;
-        else num = n;
 
         for (int i = 1; i <= num; i++)
             System.out.println(n + " * " + i + " = " + n * i);
