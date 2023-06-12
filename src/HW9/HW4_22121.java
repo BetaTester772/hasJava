@@ -2,7 +2,7 @@ package HW9;
 
 import java.util.Scanner;
 
-public class HW3_22121 {
+public class HW4_22121 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
