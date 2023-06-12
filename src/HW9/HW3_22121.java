@@ -22,9 +22,6 @@ public class HW3_22121 {
     }
 
     public static boolean checkNum(int num, int x) {
-        if (num == x)
-            return true;
-        else
-            return false;
+        return num == x;
     }
 }
