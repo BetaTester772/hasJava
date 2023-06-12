@@ -12,14 +12,14 @@ public class HW2_22121 {
 
         while (x <= 0) {
             System.out.println("잘못된 입력입니다. 다시 입력하세요.");
-            System.out.print("정수를 입력하세요 ");
+            System.out.print("정수를 입력하세요: ");
             x = sc.nextInt();
         }
         printTimes(x);
     }
 
     public static void printTimes(int n) {
-            for (int i = 1; i <= 9; i++)
-                System.out.println(n + " * " + i + " = " + n * i);
+        for (int i = 1; i <= 9; i++)
+            System.out.println(n + " * " + i + " = " + n * i);
     }
 }

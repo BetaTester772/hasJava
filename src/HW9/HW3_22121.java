@@ -7,25 +7,25 @@ public class HW3_22121 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("정수를 입력하세요: ");
-        int x = sc.nextInt();
+        int x;
 
-        while (x <= 0) {
-            System.out.println("잘못된 입력입니다. 다시 입력하세요.");
-            System.out.print("정수를 입력하세요 ");
+        do {
+            System.out.print("정수를 입력하세요: ");
             x = sc.nextInt();
-        }
+            if (x <= 0)
+                System.out.println("잘못된 입력입니다. 다시 입력하세요.");
+        } while (x <= 0);
         printTimes(x);
     }
 
     public static void printTimes(int n) {
-        if (n <= 9)
-            for (int i = 1; i <= 9; i++)
-                System.out.println(n + " * " + i + " = " + n * i);
+        int num;
 
-        else
-            for (int i = 1; i <= n; i++)
-                System.out.println(n + " * " + i + " = " + n * i);
+        if (n <= 9) num = 9;
+        else num = n;
+
+        for (int i = 1; i <= num; i++)
+            System.out.println(n + " * " + i + " = " + n * i);
 
     }
 }
