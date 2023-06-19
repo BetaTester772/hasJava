@@ -1,7 +1,7 @@
 package HW10;
 
 // HW2_안호성
-public class HW2 {
+public class HW2_22121 {
     public static void main(String[] args) {
         Plane2 p1 = new Plane2();
         Plane2 p2 = new Plane2(123456, "보잉737", 30);
