@@ -14,5 +14,11 @@ public class HW1_22121 {
         System.out.println("원뿔의 반지름 : " + r);
         System.out.println("원뿔의 높이 : " + h);
         System.out.println("원뿔의 부피는 " + V);
+
+//        추가
+        V = 1 / 3 * pi * r * r * h;
+        System.out.println("원뿔의 반지름 : " + r);
+        System.out.println("원뿔의 높이 : " + h);
+        System.out.println("원뿔의 부피는 " + V);
     }
 }
